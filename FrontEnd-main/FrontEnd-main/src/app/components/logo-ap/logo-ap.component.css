@@ -1,0 +1,116 @@
+
+.redes{
+    display: flex;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+.redes a{
+    margin-right: 0.8em;
+
+}
+#logoAP{
+    width: 150px;
+}
+img{
+    width: 50px;
+}
+.btn{
+    display: flex;
+    border-width: medium;
+    font-weight: bold;
+    height: min-content;
+    margin-top: 0.3em;
+}
+
+/*--- Para la vista de celular ---
+@media (max-width: 575px){
+    .container{
+        flex-direction: column;
+    }
+    .redes{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes img{
+        margin-bottom: 0.8em;
+    }
+}
+
+*/
+
+
+
+
+#navbarmain{
+    margin: 0;
+    font-family:'ExtraLight 200', Arial, sans-serif;
+    display: flex;
+    padding: 0px;
+    
+  
+  }
+  .container-fluid{
+    background-color:#0f71c7;
+    display: flex;
+    justify-content: center;
+    outline: none;
+
+  }
+
+  #navbarNav{
+    font-size: 10px;
+    padding: 10px;
+  }
+  .navbarNav{  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .nav-item {
+    margin: auto;
+  }
+  .nav-link {
+    font-weight: 800;
+    font-size: 2em;
+  }
+  
+  
+  .nav-item a span:first-child {
+      display: inline-block;
+      padding: 10px;
+      
+    }
+    .nav-item a {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      
+    }
+    #logincontainer{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px;
+      margin-top: 3px;
+      font-weight: 600;
+    }
+    #login span{
+      background: #FFF;
+      padding: 4px 10px;
+      outline: solid 3px #FFF;
+      border-radius: .8px;
+    }
+  
+    .button{
+      font-family:'Franklin Gothic Medium';
+      font-size: 20px;
+      margin-right: 10px;
+      padding: 5px;
+      border-radius: 50px;
+    }
+    .button:hover{
+      background-color:#000;
+      color:#FFF;
+      
+    }
+  

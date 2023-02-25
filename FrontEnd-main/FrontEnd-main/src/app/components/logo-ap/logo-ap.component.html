@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg bg-light" id="navbarmain">
+  <div class="container-fluid" id="navbarContainer">
+    <img src="../../../assets/APLogo.png" alt="logoAp" id="logoAP" class="left">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse" id="navbarNav">
+        <div class="redes">
+            <a href="/login"><img src="../../../assets/linkedin.png" id="linkedin"></a>
+            <a href=""><img src="../../../assets/twitter.png" id="twitter"></a>
+            <a href=""><img src="../../../assets/instagram.png" id="instagram"></a>
+            <a href=""><img src="../../../assets/github.png" id="github"></a>
+            <a href=""><img src="../../../assets/facebook.png" id="facebook"></a>
+            <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+        </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,69 @@
+.banner{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+
+    
+  }
+  .banner__background{
+      background-color: #8e8e8e;
+      background-image: url(../../../assets/wallpaperbetter.com_1920x1080.png);
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+      filter: brightness(.4);
+    }
+   .banner__inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    
+  }
+  .titles__container{
+    display: flex;
+    min-width: 280px;
+    flex:1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  } 
+  .title__inicio{
+      z-index: 1;
+      padding: 10px;
+      
+  }
+  .title__inicio--{
+      font-size: 60px;
+      text-shadow: 1px 1px rgb(255, 255, 255);
+      color: #3367d6;
+  }
+  .profile_image{
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .profile_image_container{
+    padding: 10px;
+  }
+  .profile_image_container div{
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .profile_image img{
+    width: 70%;
+  }
+.frist,
+.second{
+  color: #fff;
+  text-shadow: 3px 3px#000;
+}
