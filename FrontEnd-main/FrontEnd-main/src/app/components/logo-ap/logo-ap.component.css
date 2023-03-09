@@ -47,12 +47,15 @@ img{
     margin: 0;
     font-family:'ExtraLight 200', Arial, sans-serif;
     display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
     padding: 0px;
     
   
   }
   .container-fluid{
-    background-color:#0f71c7;
+    background-color: rgb(39,80,167);
     display: flex;
     justify-content: center;
     outline: none;

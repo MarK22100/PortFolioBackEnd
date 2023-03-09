@@ -1,10 +1,10 @@
-<div class="hys">
-
-    <h1>Hard & Soft skills</h1>
-    <div class="col-lg-2">
-        <button type="button" routerLink="/newskill" class="btn btn-dark" *ngIf="isLogged">Nueva Skill</button>
+<div class="hys col-4 ">
+    <div class="title hys">
+        <h1>Hard & Soft skills</h1>
+        <div class="new_skill">
+            <app-new-skill></app-new-skill>
+        </div>
     </div>
-
 
     <div class="text-center col-sm-4 col-md-4 col-lg-4 circulo" *ngFor="let skill of skill">
         <circle-progress 

@@ -1,9 +1,22 @@
+.exp_container{
+    background-color: rgb(39,80,167);
+    padding: 1em;
+    color: #fefefe;
+}
 .exp{
     margin: 0;
+    color: #fefefe;
+    height: max-content;
+
 }
-div{
-    background: #a1b5cb;
-}
+
 h1, h3{
     display: inline;
+}
+.table{
+    color: #fefefe;
+}
+.table_row{
+
+    
 }

@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0px auto;
-    background-color: #fff;
+    background-color: rgb(39,80,167);
     padding: 2em;
 
 }
@@ -45,4 +45,11 @@
     flex-direction: column;
     text-align: center;
     line-height: 40px;
+}
+.imgcontent{
+    display: flex;
+    flex-direction: column;
+}
+.imgcontent button{
+    margin-right: auto;
 }

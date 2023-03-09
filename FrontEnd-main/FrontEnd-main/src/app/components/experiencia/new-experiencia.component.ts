@@ -12,6 +12,8 @@ export class NewExperienciaComponent implements OnInit {
   nombreE: string = '';
   descripcionE: string = '';
 
+  isLogged: false;
+
   constructor(private sExperiencia: SExperienciaService, private router: Router) { }
 
   ngOnInit(): void {
@@ -22,7 +24,7 @@ export class NewExperienciaComponent implements OnInit {
     this.sExperiencia.save(expe).subscribe(
       data => {
         alert("Experiencia añadida");
-        this.router.navigate(['']);
+        window.location.reload();
       }, err => {
         alert("Falló");
         this.router.navigate(['']);

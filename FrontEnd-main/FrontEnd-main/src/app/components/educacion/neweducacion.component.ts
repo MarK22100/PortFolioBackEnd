@@ -22,7 +22,7 @@ export class NeweducacionComponent implements OnInit {
     this.educacionS.save(educacion).subscribe(
       data =>{
         alert("Educacion añadida correctamente");
-        this.router.navigate(['']);
+        window.location.reload();
       }, err =>{
         alert("falló");
         this.router.navigate(['']);

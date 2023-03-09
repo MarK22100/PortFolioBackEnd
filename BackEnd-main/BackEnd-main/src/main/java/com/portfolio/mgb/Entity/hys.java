@@ -14,10 +14,10 @@ import javax.persistence.Id;
 public class hys {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private int id; 
     private String nombre;
     private int porcentaje;
-
+    
     public hys() {
     }
 

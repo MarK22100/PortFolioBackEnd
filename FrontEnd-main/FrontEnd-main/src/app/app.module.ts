@@ -44,7 +44,7 @@ import { NewSkillComponent } from './components/hys/new-skill.component';
     NeweducacionComponent,
     EditeducacionComponent,
     EditSkillComponent,
-    NewSkillComponent,
+    NewSkillComponent
   ],
   imports: [
     BrowserModule,
@@ -55,7 +55,11 @@ import { NewSkillComponent } from './components/hys/new-skill.component';
     HttpClientModule
   ],
   providers: [
-    interceptorProvider
+    interceptorProvider,
+    EditExperienciaComponent
+  ],
+  entryComponents:[
+    EditExperienciaComponent
   ],
   bootstrap: [AppComponent]
 })
